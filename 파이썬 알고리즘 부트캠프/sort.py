@@ -28,7 +28,6 @@ def shellsort(nlist): # shell sort
     h = 1
     while (3*h + 1 < len(nlist)):
         h = 3*h + 1
-
     while (h > 0):
         for i in range(h, len(nlist)):
             temp = nlist[i]
